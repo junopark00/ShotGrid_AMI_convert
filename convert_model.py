@@ -34,7 +34,7 @@ class ShotgunAction:
             fields (list): 가져오려는 필드값 리스트
 
         Returns:
-            dict: _description_
+            dict: 필드에서 요청한 정보를 담은 딕셔너리
         """
         return self._sg.find_one(entity_type, [['id', 'is', int(id)]], fields)
     
