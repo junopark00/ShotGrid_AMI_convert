@@ -6,15 +6,14 @@ Shotgrid의 PublishedFile 엔티티에 존재하는 레코드의 필드값을 �
 ## 모듈 및 프레임워크
 
 - PySide2
-- shotgun_api3
-- [ffmpeg 4.2.4](https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz)
-
 ```bash
 pip install PySide2
 ```
+- shotgun_api3
 ```bash
 pip install shotgun_api3
 ```
+- [ffmpeg 4.2.4](https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz)
 
 ## 사용 방법
 
