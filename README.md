@@ -21,7 +21,7 @@ wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 
 ## 사용 방법
 
-### 1. shotgrid에 [커스텀 AMI](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html) 추가
+### 1. shotgrid에 [커스텀 AMI 추가](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html)
 
 <div align="center">
    <img src="resources/ami_001.png" width="60%">
