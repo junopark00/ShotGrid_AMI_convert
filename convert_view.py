@@ -16,7 +16,7 @@ class ConverterView(QWidget):
         """
         UI 생성 및 시각화
         """
-        self.setWindowTitle("Convert Sequence to .mov")
+        self.setWindowTitle("Convert Sequence to Video")
         self.setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70);")
         self.setMinimumWidth(500)
         self.__set_center()
