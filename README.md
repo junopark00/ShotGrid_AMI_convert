@@ -29,7 +29,7 @@ wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 4. AMI 실행
 
 ## 라이센스
-The Unilicense<br>(https://choosealicense.com/licenses/unlicense/)
+The Unilicense
 
 ## 제작자
 Email: td.junopark@gmail.com<br>
