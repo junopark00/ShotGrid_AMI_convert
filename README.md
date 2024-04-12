@@ -28,7 +28,7 @@ wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 3. 커스텀 프로토콜 추가<br>(https://stackoverflow.com/questions/32064229값custom-protocol-handlers-linux-centos-7-for-chrome)
 4. AMI 실행
 
-## 라이센트
+## 라이센스
 The Unilicense<br>(https://choosealicense.com/licenses/unlicense/)
 
 ## 제작자
