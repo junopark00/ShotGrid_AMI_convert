@@ -3,7 +3,7 @@
 Shotgrid의 PublishedFile 엔티티에 존재하는 레코드의 필드값을 파싱하여<br>로컬 경로에 존재하는 이미지 시퀀스를 비디오로 변환하여 저장하는 프로그램.<br>
 로직을 응용하여 추가적인 기능 구현 가능
 
-## 모듈 및 프레임워크
+## Modules & Frameworks
 
 - PySide2
 ```bash
@@ -18,7 +18,7 @@ pip install shotgun_api3
 wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 ```
 
-## 사용 방법
+## How to use
 
 ### 1. shotgrid에 [커스텀 AMI 추가](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html)
 
@@ -91,10 +91,10 @@ xdg-mime query default x-scheme-handler/shotgrid
     <h4> ▲ AMI를 통해 스크립트가 실행된 모습
 </div>
 
-## 라이선스
+## License
 [The Unilicense](https://unlicense.org/)
 
-## 제작자
+## Developer
 Email: td.junopark@gmail.com<br>
 Github: https://github.com/junopark00<br>
 Pull Requests: https://github.com/junopark00/ShotGrid_AMI_convert/pulls
