@@ -14,7 +14,7 @@ pip install PySide2
 pip install shotgun_api3
 ```
 - [ffmpeg 4.2.4](https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz)
-- ```bash
+```bash
 wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 ```
 
