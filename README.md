@@ -96,7 +96,7 @@ xdg-mime query default x-scheme-handler/shotgrid
 </div>
 
 ## 라이센스
-The Unilicense
+The Unilicense (https://unlicense.org/)
 
 ## 제작자
 Email: td.junopark@gmail.com<br>
