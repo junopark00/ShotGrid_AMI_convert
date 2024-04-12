@@ -27,3 +27,9 @@ wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 2. 코드 수정 (script_key, 경로, 설정값 등)
 3. 커스텀 프로토콜 추가<br>(https://stackoverflow.com/questions/32064229값custom-protocol-handlers-linux-centos-7-for-chrome)
 4. AMI 실행
+
+
+## 제작자
+email: td.junopark@gmail.com
+github: https://github.com/junopark00
+requests: https://github.com/junopark00/ShotGrid_AMI_convert/pulls
