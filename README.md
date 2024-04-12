@@ -47,7 +47,7 @@ wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 ### 2. 코드 수정 (script_key, 경로, 설정값 등)
 
 ### 3. 커스텀 프로토콜 추가  
-#### (https://stackoverflow.com/questions/32064229/custom-습rotocol-handlers-linux-centos-7-for-chrome)
+#### (https://stackoverflow.com/questions/32064229/custom-protocol-handlers-linux-centos-7-for-chrome)
 
 <div align="center">
    <img src="resources/ami_004.png" width="50%">
