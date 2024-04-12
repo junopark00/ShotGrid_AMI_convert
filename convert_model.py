@@ -19,9 +19,9 @@ class ShotgunAction:
         Returns:
             shotgun_api3.Shotgun: shotgrid 객체 생체
         """
-        SERVER_PATH = "https://west-intern.shotgrid.autodesk.com"
-        SCRIPT_NAME = "juno_api"
-        SCRIPT_KEY = "xuvlnvfbrhMq_mwik8tfhrhyu"
+        SERVER_PATH = "Your Shotgrid Server Path"
+        SCRIPT_NAME = "Your Script"
+        SCRIPT_KEY = "Your Script Key"
         return shotgun_api3.Shotgun(SERVER_PATH, SCRIPT_NAME, SCRIPT_KEY)
 
     def get_entity_info(self, entity_type: str, id: str, fields: list) -> dict:
