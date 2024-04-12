@@ -34,7 +34,7 @@ class ConvertController(convert_view.ConverterView):
         self._model = convert_model.ShotgunAction(sys.argv[1])
         self.__set_data()
         self.__set_flags()
-        self._show_path = "/RAPA/test_juno"  # 파일탐색기 경로(벗어날 시 에러 발생)
+        self._show_path = "/path/to/show"  # 파일탐색기 경로(벗어날 시 에러 발생)
         self.__connections()
     
     def __set_flags(self) -> None:
@@ -110,10 +110,10 @@ class ConvertController(convert_view.ConverterView):
         """
         url의 액션을 확인하여 특정 작업 수행
         """
-        if self._action == 'convert_seq2mov':
+        if self._action == 'Your_Action':
             self.__convert(self._dir_path, self._out_ext)
         else:
-            self._custom_messagebox.warning(self, "Action Error", f"Invalid Action: {self.action}")
+            self._custom_messagebox.warning(self, "Action Error", f"Invalid Action: {self._action}")
             return
         
     def __convert(self, dir_path: str, output_ext: str) -> None:
@@ -187,12 +187,12 @@ class ConvertController(convert_view.ConverterView):
             return
 
         # set variants
-        basename = os.path.basename(file_lst[0])                                          # fire.0001.jpg
-        sequence_name = basename.split(".")[0]                                            # fire
-        ext = basename.split(".")[-1]                                                                # jpg
-        first_frame = basename.split(".")[1]                                                     # 0001
-        last_frame = (os.path.basename(file_lst[-1])).split(".")[1]                  # 0100
-        output_name = sequence_name + f".[{first_frame}-{last_frame}]"    # fire.[0001-0100]
+        basename = os.path.basename(file_lst[0])                                # fire.0001.jpg
+        sequence_name = basename.split(".")[0]                                  # fire
+        ext = basename.split(".")[-1]                                           # jpg
+        first_frame = basename.split(".")[1]                                    # 0001
+        last_frame = (os.path.basename(file_lst[-1])).split(".")[1]             # 0100
+        output_name = sequence_name + f".[{first_frame}-{last_frame}]"          # fire.[0001-0100]
         
         # avoid duplication
         final_output_path = os.path.join(output_dir, f"{output_name}{output_ext}")
@@ -300,4 +300,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication()
     dc = ConvertController()
     sys.exit(app.exec_())
-    # test = python3 "/path/to/convert_controller.py" "foo://convert_seq2mov?selected_ids={ids}&entity_type=PublishedFile"
+    # test = python3 "/path/to/convert_controller.py" "foo://Your_Action?selected_ids={ids}&entity_type=PublishedFile"
