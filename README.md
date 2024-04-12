@@ -30,6 +30,6 @@ wget https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz
 
 
 ## 제작자
-email: td.junopark@gmail.com<br>
-github: https://github.com/junopark00<br>
-requests: https://github.com/junopark00/ShotGrid_AMI_convert/pulls
+Email: td.junopark@gmail.com<br>
+Github: https://github.com/junopark00<br>
+Pull Requests: https://github.com/junopark00/ShotGrid_AMI_convert/pulls
