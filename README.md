@@ -91,7 +91,7 @@ xdg-mime query default x-scheme-handler/shotgrid
     <h4> ▲ AMI를 통해 스크립트가 실행된 모습
 </div>
 
-## 라이센스
+## 라이선스
 [The Unilicense](https://unlicense.org/)
 
 ## 제작자
