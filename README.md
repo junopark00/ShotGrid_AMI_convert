@@ -11,7 +11,7 @@ pip install PySide2
 ```
 - shotgun_api3
 ```bash
-pip install shotgun_api3
+pip install git+https://github.com/shotgunsoftware/python-api.git
 ```
 - [ffmpeg 4.2.4](https://ffmpeg.org/releases/ffmpeg-4.2.4.tar.xz)
 ```bash
